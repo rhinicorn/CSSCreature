@@ -1,0 +1,19 @@
+.wrapper{
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(-30deg, #2d4373 20%, #237886 60%, #00d4ff 100% );
+}
+#square{
+    height: 300px;
+    width: 300px;
+    background-color: #ffffff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    padding: 20px;
+}
