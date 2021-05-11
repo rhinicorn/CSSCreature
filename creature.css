@@ -1,9 +1,17 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: linear-gradient(-30deg, #2d4373 20%, #237886 60%, #00d4ff 100% );
+}
+
+/*
 .wrapper {
 	margin: 16px;
 	position: relative;
 	background-color: #3399ff;
 	text-align: center;
-}
+}*/
 
 .head{
 	position: relative;
@@ -12,7 +20,7 @@
 	border-radius: 50% 50% 50% 50%;
 	height: 8.5em;
 	width:10em;
-	top: 2em;
+	top: 3em;
 	left:27%;
 }
 .belly{
@@ -27,8 +35,8 @@
 }
 .bigHorn {
 	position: relative;
-	top: 7.5em;
-	left: 24.5%;
+	top: 8.25em;
+	left: 25.5%;
 	height:0;
 	width:0;
 	border-left: 50px solid transparent;
@@ -39,7 +47,7 @@
 
 .littleHorn {
 	position: relative;
-	top: 2.8em;
+	top: 4em;
 	left: 29%;
 	height:0;
 	width:0;
